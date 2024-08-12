@@ -1,5 +1,6 @@
+
 ARG PYTHON_VERSION=3.9.19
-FROM python:${PYTHON_VERSION}-slim as base
+FROM python:${PYTHON_VERSION}-slim AS base
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
@@ -26,4 +27,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD python app.py --port 5000
+CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]

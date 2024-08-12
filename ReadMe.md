@@ -33,5 +33,25 @@
 
 ## Run the server
 
-1. Build the image, run this command `docker build -t numida-server . ` or `sudo docker build -t numida-server . `
-2. Run the image, run this command `docker run -p 5000:5000 numida-server` or `sudo docker run -p 5000:5000 numida-server`
+1. Build the image, run this command `docker build -t app . ` or `sudo docker build -t app . `
+2. Run the image, run this command `docker run -p 5000:5000 app` or `sudo docker run -p 5000:5000 app`
+
+# Sample images from the app.
+
+### Dashboard screen shots
+
+![Dashboard image](./dashboard-1.jpeg)
+![Dashboard image with button](./dashboard-2.jpeg)
+
+### Loan Application screen Shots
+
+![Loan Application Form](./loan-application-form.jpeg)
+
+![Loan Application Form field is required](./field-required-error.jpeg)
+![Loan Application Form amount in negative is not allowed](./negaitve-money-error.jpeg)
+![Loan Application is successfully](./success-toast.jpeg)
+
+## Note
+
+I have provided a sample of screens.
+I hope to discuss other parts of the application once we meet again.
