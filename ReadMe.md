@@ -1,18 +1,18 @@
 # APP SETUP INSTRUCTIONS
 
-## changes to match your machine.
+## Changes to match your machine.
 
 1. Change directory to numida cd numida `cd numida/`
 
 2. In the file env.json, change the ip to your machine ip so that the app bundler can connect to your server (check server README.md)
 
-## installation and running
+## Installation and running
 
 There two ways you can run the UI/App
 
-#### requirements
+## Requirements
 
-    - Please download the expo app
+### Please download the expo app
 
 1. #### Normally with expo
 
