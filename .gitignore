@@ -19,4 +19,4 @@
 expo-env.d.ts
 # @end expo-cli
 
-/server/venv
+./server/venv
