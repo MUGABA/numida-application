@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Container Component renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <RNCSafeAreaView
+      edges={
+        {
+          "bottom": "additive",
+          "left": "additive",
+          "right": "additive",
+          "top": "additive",
+        }
+      }
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                  "paddingHorizontal": 20,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "black",
+                  "fontSize": 38,
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 25,
+                }
+              }
+            >
+              Dashboard
+            </Text>
+            <View>
+              <Text>
+                Another component
+              </Text>
+            </View>
+            <View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#30C2E3",
+                    "borderRadius": 15,
+                    "justifyContent": "center",
+                    "marginTop": 80,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "borderRadius": 5,
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 12,
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  Submit
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RNCSafeAreaView>
+  </View>
+</RCTScrollView>
+`;
