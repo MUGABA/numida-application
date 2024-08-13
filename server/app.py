@@ -83,14 +83,3 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
 
 
-
-
-
-
-
-
-# docker build -t app
-# docker build -t app .
-# Edwin Eddie
-# 10:01 PM
-# docker run -p 5000:5000 app
